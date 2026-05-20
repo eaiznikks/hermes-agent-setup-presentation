@@ -1,0 +1,10 @@
+{
+  "name": "hermes-agent-setup-presentation",
+  "version": "1.0.0",
+  "private": false,
+  "scripts": {
+    "build": "mkdir -p public/assets && cp index.html public/index.html && cp -R assets/* public/assets/"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
